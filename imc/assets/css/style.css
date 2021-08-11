@@ -4,6 +4,23 @@
   --primary-color-darker: rgb(9, 48, 56);
 }
 
+/*.newspace {
+
+  -webkit-column-count: 2;
+  column-count: 2;
+}*/
+.paragrafo1 {
+  float: left;
+  right: 50px;
+}
+
+.text-right{
+  float: right;
+}
+.formulario {
+  display:inline-block;
+}
+
 * {
   box-sizing: border-box;
   outline: 0;
@@ -55,4 +72,13 @@ form button {
 
 form button:hover {
   background: var(--primary-color-darker);
+}
+
+.paragrafo-resulatado, .bad {
+  background: rgb(109, 255, 182);
+  padding: 10px 20px;
+}
+
+.bad {
+  background: rgb(255, 150, 150);
 }
